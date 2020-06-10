@@ -1,0 +1,21 @@
+server:
+  port: 8501
+spring:
+  application:
+    name: microservicecloud-consul-producer
+  cloud:
+    consul:
+      port: 8500
+      host: localhost
+      discovery:
+        service-name: service-producer #注册到consul的服务名称
+management:
+  security:
+    enabled: false
+#  endpoint:
+#    health:
+#      show-details: always  #显示健康具体信息，默认不会显示详细信息
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'    # 暴露所有节点

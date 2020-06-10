@@ -1,0 +1,4 @@
+#用户级别的资源配置项
+spring:
+  application:
+    name: microservicecloud-config-client

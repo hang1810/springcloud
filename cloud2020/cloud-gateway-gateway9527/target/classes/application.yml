@@ -1,0 +1,53 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: cloud-gateway
+  cloud:
+    #动态路由
+      gateway:
+        discovery:
+          locator:
+            enabled: true #开启从注册中心动态创建路由的功能，利用微服务名进行路由
+        routes:
+          - id: payment_routh #payment_route #路由的ID 没有固定规则但是要求唯一，建议配合服务名
+            uri: lb://cloud-payment-service       #匹配后提供服务的路由地址
+            predicates:
+              - Path=/payment/get/**         #断言 路径相匹配的进行路由
+
+          - id: payment_routh2 #payment_route #路由的ID 没有固定规则但是要求唯一，建议配合服务名
+            uri: lb://cloud-payment-service      #匹配后提供服务的路由地址
+            #filters:
+            #   -AddRequestParamenter=X-Request-Id,1024  #过滤器工程会在匹配的请求头加上一对请求头，名称为X-Request-Id值为X-Request-Id值为1024
+            predicates:
+               - Path=/payment/lb/**         #断言 路径相匹配的进行路由
+               - After=2020-06-09T23:38:12.532+08:00[Asia/Shanghai] #某个时间后生效这个路由
+            #   - Cookie=username,Hang       #Cookie  curl测试：curl  http://localhost:8001/payment/lb --conkie "username=Hang"
+
+            #   - Before=2020-06-09T23:38:12.532+08:00[Asia/Shanghai] #某个时间前生效这个路由
+            #   - Between=2020-06-09T23:38:12.532+08:00[Asia/Shanghai],2020-06-10T23:38:12.532+08:00[Asia/Shanghai] #某个时间内生效这个路由
+            #   - Header=X-Request-Id,\d+    #请求头要有X-Request-Id属性并且值为整数的正则表达式
+
+#     固定路由
+#     gateway:
+#        routes:
+#          - id: payment_routh #payment_route #路由的ID 没有固定规则但是要求唯一，建议配合服务名
+#            uri: http://localhost:8001       #匹配后提供服务的路由地址
+#            predicates:
+#              - Path=/payment/get/**         #断言 路径相匹配的进行路由
+#
+#          - id: payment_routh2 #payment_route #路由的ID 没有固定规则但是要求唯一，建议配合服务名
+#            uri: http://localhost:8001       #匹配后提供服务的路由地址
+#            predicates:
+#            - Path=/payment/lb/**         #断言 路径相匹配的进行路由
+
+eureka:
+  instance:
+    hostname: cloud-gateway-service
+  client:
+    service-url:
+      #表示是否将自己注册进eureka 默认true
+      register-with-eureka: true
+      #是否从eurekaServer 抓取已有注册信息，默认true  单节点无所谓，集群必须为true 才能配合ribbon 使用负载均衡:
+      fetch-registry:  true
+      defaultZone: http://eureka7001.com:7001/eureka/
