@@ -10,7 +10,7 @@ spring:
           uri: https://github.com/hang1810/springcloud.git #git@github.com/hang1810/springcloud.git
           #搜索目录
           search-paths:
-              - cloud2020/config
+          - cloud2020/config
       #读取分支
       label: master
 eureka:
