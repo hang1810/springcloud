@@ -1,0 +1,19 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com/hang1810/springcloud.git
+          #搜索目录
+          search-paths:
+          - cloud2020/config
+      #读取分支
+      label: master
+eureka:
+  client: #客户端注册进eureka服务列表内
+    service-url:
+      defaultZone: http://localhost:7001/eureka
