@@ -13,22 +13,24 @@ spring:
           - cloud2020/config
       #读取分支
       label: master
-#rabbitmq相关配置
+  # rabbitmq相干配置
   rabbitmq:
-    host: lcoalhost
+    host: localhost
     port: 5672
     username: guest
     password: guest
+
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url:
       defaultZone: http://localhost:7001/eureka
 
 
-
-##rabbitMQ相关配置,暴露bus刷新配置的端点
+# 暴露bus刷新配置的端点
 management:
   endpoints:
     web:
       exposure:
         include: 'bus-refresh'
+
+

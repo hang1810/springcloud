@@ -1,0 +1,36 @@
+
+server:
+  port: 8802
+spring:
+  application:
+    name: cloud-stream-consumer
+  cloud:
+    stream:
+      binders: # 在此绑定rabbitMQ的服务信息
+        defaultRabbit: # 表示定义的名称 ， 用于binding整合
+          type: rabbit  #消息组件类型
+          environment:  # rabbit相关环境配置
+            spring:
+              rabbitmq:
+                host: localhost
+                prot: 5672
+                username: guest
+                password: guest
+      bindings: # 服务的整合处理
+        input: # 这个名字是一个通道的名称
+          destination: studyExchange      # 表示用Exchange名称定义
+          content-type: application/json
+          binder: defaultRabbit      # 绑定服务具体设置
+          group: A #两个消费者组名都设置为A。这样就解决了重复消费问题，并且两个消费者轮询消费
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: 2 # 心跳间隔时间 默认30秒
+    lease-expiration-duration-in-seconds: 5 # 超时时间  默认是90秒
+    instance-id: receive-8802.com  # 在服务列表显示主机名称
+    prefer-ip-address: true # 访问路径变成ip地址
+
