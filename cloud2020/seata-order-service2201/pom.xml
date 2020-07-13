@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cloud2020</artifactId>
+        <groupId>com.atguigu.springcloud</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>seata-order-service2201</artifactId>
+
+   <dependencies>
+       <!--SpringCloudAlibaba的seata分布式事务管理-->
+       <dependency>
+           <groupId>com.alibaba.cloud</groupId>
+           <artifactId>spring-cloud-alibaba-seata</artifactId>
+           <exclusions>
+               <exclusion>
+                   <groupId>io.seata</groupId>
+                   <artifactId>seata-spring-boot-starter</artifactId>
+               </exclusion>
+           </exclusions>
+       </dependency>
+       <!--指定与安装的seata版本一致，重要！-->
+       <dependency>
+           <groupId>io.seata</groupId>
+           <artifactId>seata-spring-boot-starter</artifactId>
+           <version>1.2.0</version>
+       </dependency>
+       <!-- nacos 作为配置中心 -->
+       <dependency>
+           <groupId>com.alibaba.cloud</groupId>
+           <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+       </dependency>
+
+       <!--Springcloud alibaba Nacos配置-->
+       <dependency>
+           <groupId>com.alibaba.cloud</groupId>
+           <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+       </dependency>
+       <!--Springcloud alibaba sentinel-datasource-nacos  持久化 Sentinel-Nacos动态配置-->
+       <dependency>
+           <groupId>com.alibaba.csp</groupId>
+           <artifactId>sentinel-datasource-nacos</artifactId>
+           <version>1.7.2</version>
+       </dependency>
+       <!--Springcloud alibaba sentinel 流量哨兵-->
+       <dependency>
+           <groupId>com.alibaba.cloud</groupId>
+           <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+       </dependency>
+       <!--openfeign openfeign 支持解析MVC注解接口-->
+       <dependency>
+           <groupId>org.springframework.cloud</groupId>
+           <artifactId>spring-cloud-starter-openfeign</artifactId>
+       </dependency>
+
+       <!--SpringBoot整合Web组件++actuator-->
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-web</artifactId>
+       </dependency>
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-actuator</artifactId>
+       </dependency>
+       <!--mybatis-->
+       <dependency>
+           <groupId>org.mybatis.spring.boot</groupId>
+           <artifactId>mybatis-spring-boot-starter</artifactId>
+       </dependency>
+       <!--jdbc sql-->
+       <dependency>
+           <groupId>mysql</groupId>
+           <artifactId>mysql-connector-java</artifactId>
+       </dependency>
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-jdbc</artifactId>
+       </dependency>
+
+       <dependency>
+           <groupId>com.alibaba</groupId>
+           <artifactId>druid</artifactId>
+           <version>1.1.22</version>
+       </dependency>
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-tomcat</artifactId>
+           <!--	<scope>provided</scope>-->
+       </dependency>
+
+       <dependency>
+           <groupId>javax.servlet</groupId>
+           <artifactId>javax.servlet-api</artifactId>
+           <version>3.1.0</version>
+       </dependency>
+       <!--热启动-->
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-devtools</artifactId>
+           <scope>runtime</scope>
+           <optional>true</optional>
+       </dependency>
+       <!--日志-->
+       <dependency>
+           <groupId>org.projectlombok</groupId>
+           <artifactId>lombok</artifactId>
+           <optional>true</optional>
+       </dependency>
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-test</artifactId>
+           <scope>test</scope>
+       </dependency>
+
+
+
+   </dependencies>
+</project>

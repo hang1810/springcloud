@@ -89,4 +89,9 @@ public class PaymentControlller {
         }
         return serverPort;
     }
+
+    @GetMapping("/payment/zipkin")
+    public String paymentZipkin(){
+        return " hi ,IAM PAYMENT ZIPKIN SEVER FALL BACK,WELCOME TO FUJIAN";
+    }
 }

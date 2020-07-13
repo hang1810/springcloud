@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloludalibaba-consumer-nacos-order84" />
         <module name="cloud-api-commons" />
         <module name="cloud-config-center-3344" />
         <module name="cloud-config-center-3355" />
@@ -29,12 +30,24 @@
         <module name="cloud-stream-rabbitmq-consumer8802" />
         <module name="cloud-stream-rabbitmq-consumer8803" />
         <module name="cloud-stream-rabbitmq-provider8881" />
+        <module name="cloudalibaba-config-nacos-client3377" />
+        <module name="cloudalibaba-consumer-macos-order83" />
+        <module name="cloudalibaba-consumer-nacos-order84" />
+        <module name="cloudalibaba-provider-payment9001" />
+        <module name="cloudalibaba-provider-payment9002" />
+        <module name="cloudalibaba-provider-payment9003" />
+        <module name="cloudalibaba-provider-payment9004" />
+        <module name="cloudalibaba-sentinel-service8401" />
+        <module name="seata-order-service2001" />
+        <module name="seata-order-service2201" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloludalibaba-consumer-nacos-order84" target="1.8" />
       <module name="cloud-stram-rabbitmq-provider8001" target="1.8" />
       <module name="cloud-stram-rabbitmq-provider8801" target="1.8" />
       <module name="cloud-stream-consumer8802" target="1.8" />
+      <module name="cloudalibaba-provider-payment9002" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

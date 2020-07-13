@@ -32,4 +32,6 @@ public class OrderControlller {
         // openFeign-ribbon 客户端默认等待一分钟
         return service.paymentFeignTimeout();
     }
+
+
 }

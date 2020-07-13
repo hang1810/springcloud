@@ -27,11 +27,19 @@
         <module>cloud-config-center-3355</module>
         <module>cloud-config-center-3366</module>
         <module>cloud-config-server-3341</module>
-        <module>cloud-stram-rabbitmq-provider8001</module>
         <module>cloud-stream-rabbitmq-provider8881</module>
-        <module>cloud-stream-consumer8802</module>
         <module>cloud-stream-rabbitmq-consumer8802</module>
         <module>cloud-stream-rabbitmq-consumer8803</module>
+        <module>cloudalibaba-provider-payment9001</module>
+        <module>cloudalibaba-provider-payment9003</module>
+        <module>cloudalibaba-consumer-macos-order83</module>
+        <module>cloudalibaba-config-nacos-client3377</module>
+        <module>cloudalibaba-sentinel-service8401</module>
+        <module>cloudalibaba-provider-payment9004</module>
+
+        <module>cloudalibaba-consumer-nacos-order84</module>
+        <module>seata-order-service2001</module>
+        <module>seata-order-service2201</module>
 
     </modules>
 

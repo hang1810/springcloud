@@ -12,6 +12,7 @@
     <artifactId>cloud-consumer-feign-order80</artifactId>
 
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
