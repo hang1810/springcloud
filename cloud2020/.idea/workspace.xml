@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e227162-bd05-4110-89cc-560321d95bd9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/com/atguigu/springcloud/ConfigCenterMain3344.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-server-3341/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-server-3341/target/classes/com/atguigu/springcloud/ConfigServerApplication3341.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/controller/OrderControlller.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/controller/OrderControlller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-cosumer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-cosumer-order80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-cosumer-order80/src/main/java/com/atguigu/springcloud/controller/OrderControlller.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-cosumer-order80/src/main/java/com/atguigu/springcloud/controller/OrderControlller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-cosumer-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-cosumer-order80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-cosumer-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-cosumer-order80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-cosumer-order80/target/classes/com/atguigu/springcloud/controller/OrderControlller.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-cosumer-order80/target/classes/com/atguigu/springcloud/controller/OrderControlller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentControlller.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentControlller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentControlller.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentControlller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/target/classes/com/atguigu/springcloud/StreamCon8802.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/target/classes/com/atguigu/springcloud/controller/ReceiverMessageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/target/classes/com/atguigu/springcloud/StreamCon8803.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/target/classes/com/atguigu/springcloud/controller/ReceiverMessageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8881/target/classes/com/atguigu/springcloud/StreamMQMain8801.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8881/target/classes/com/atguigu/springcloud/controller/SendMessageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8881/target/classes/com/atguigu/springcloud/service/IMessageProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8881/target/classes/com/atguigu/springcloud/service/impl/MessageProviderImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service2001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-order-service2001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service2201/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-order-service2201/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cloud-provider-payment8001/target/" />
@@ -82,7 +59,7 @@
     <session id="-1808630377">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="3" />
@@ -93,33 +70,34 @@
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="conf" value="5" />
-          <entry key="java" value="278" />
+          <entry key="java" value="279" />
           <entry key="sql" value="3" />
-          <entry key="xml" value="161" />
+          <entry key="xml" value="164" />
           <entry key="yml" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="278" />
+          <entry key="JAVA" value="279" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="SQL" value="3" />
-          <entry key="XML" value="161" />
+          <entry key="XML" value="164" />
           <entry key="YAML" value="125" />
         </counts>
       </usages-collector>
@@ -128,7 +106,7 @@
           <entry key="dummy" value="15" />
           <entry key="java" value="17444" />
           <entry key="sql" value="68" />
-          <entry key="xml" value="1582" />
+          <entry key="xml" value="1721" />
           <entry key="yml" value="4623" />
         </counts>
       </usages-collector>
@@ -137,7 +115,7 @@
           <entry key="JAVA" value="17444" />
           <entry key="PLAIN_TEXT" value="15" />
           <entry key="SQL" value="80" />
-          <entry key="XML" value="1570" />
+          <entry key="XML" value="1709" />
           <entry key="YAML" value="4623" />
         </counts>
       </usages-collector>
@@ -145,32 +123,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-config-center-3344/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="59" selection-start-line="59" selection-end-line="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/service/impl/OrderServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seata-order-service2001/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="324">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/config/DataSourceProxyConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -178,40 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seata-order-service2201/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/seata-order-service2201/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seata-order-service2201/src/main/java/com/hang/springcloud/SeataOrder2201Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="33" selection-start-line="33" selection-end-line="40" selection-end-column="17" />
+            <state relative-caret-position="765">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -229,6 +163,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>my</find>
+      <find>nacos-discovery</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -268,7 +203,6 @@
         <option value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/hang/springcloud/controller/OrderNacosController.java" />
         <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/seata-order-service2001/src/main/resources/registry.conf" />
         <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/domain/CommonResult.java" />
         <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/domain/Order.java" />
@@ -285,9 +219,10 @@
         <option value="$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/seata-order-service2201/src/main/java/com/hang/springcloud/SeataOrder2201Main.java" />
-        <option value="$PROJECT_DIR$/seata-order-service2001/pom.xml" />
-        <option value="$PROJECT_DIR$/seata-order-service2201/pom.xml" />
         <option value="$PROJECT_DIR$/seata-order-service2201/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-order-service2201/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/pom.xml" />
       </list>
     </option>
   </component>
@@ -314,15 +249,6 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloudalibaba-sentinel-service8401" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloudalibaba-sentinel-service8401" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="seata-order-service2001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -376,6 +302,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -426,18 +353,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-order-service2001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
@@ -446,6 +362,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="seata-order-service2001" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
@@ -481,21 +403,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-order-service2201" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -504,10 +417,11 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="nacos-discovery&#9;FILE&#9;jar://D:/CODE/Maven/apache/MavenRepository/com/alibaba/cloud/spring-cloud-alibaba-nacos-discovery/2.1.0.RELEASE/spring-cloud-alibaba-nacos-discovery-2.1.0.RELEASE.jar!/META-INF/maven/com.alibaba.cloud/spring-cloud-alibaba-nacos-discovery" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594392524163" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../springcloud-learning-master" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594740607076" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../临时/kc-seata-demo-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -549,7 +463,7 @@
     </option>
     <option name="contentProportion" value="0.22171053" />
   </component>
-  <component name="RunManager" selected="Application.SeataOrder2201Main">
+  <component name="RunManager" selected="Spring Boot.SeataOrderMainApp2001">
     <configuration name="SeataOrder2201Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hang.springcloud.SeataOrder2201Main" />
       <module name="seata-order-service2201" />
@@ -743,6 +657,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMain9004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-provider-payment9004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hang.springcloud.PaymentMain9004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SeataOrder2201Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="seata-order-service2201" />
       <extension name="coverage">
@@ -841,18 +762,19 @@
       <item itemvalue="Spring Boot.PayemntMain9001" />
       <item itemvalue="Spring Boot.OrderNacosMain83" />
       <item itemvalue="Spring Boot.OrderNacosMain84" />
+      <item itemvalue="Spring Boot.ConfigMain3377" />
+      <item itemvalue="Spring Boot.PaymentMain9004" />
       <item itemvalue="Spring Boot.PayemntMain9003" />
       <item itemvalue="Spring Boot.SentinelMain8401" />
       <item itemvalue="Spring Boot.SeataOrderMainApp2001" />
-      <item itemvalue="Spring Boot.ConfigMain3377" />
       <item itemvalue="Spring Boot.SeataOrder2201Main" />
       <item itemvalue="Application.SeataOrder2201Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SeataOrderMainApp2001" />
         <item itemvalue="Application.SeataOrder2201Main" />
         <item itemvalue="Spring Boot.SeataOrder2201Main" />
-        <item itemvalue="Spring Boot.SeataOrderMainApp2001" />
         <item itemvalue="Spring Boot.SentinelMain8401" />
         <item itemvalue="Spring Boot.PayemntMain9003" />
       </list>
@@ -893,6 +815,9 @@
       <workItem from="1594208190024" duration="3589000" />
       <workItem from="1594294950230" duration="1581000" />
       <workItem from="1594386908978" duration="5021000" />
+      <workItem from="1594708116219" duration="2188000" />
+      <workItem from="1594736258613" duration="3991000" />
+      <workItem from="1594740695020" duration="495000" />
     </task>
     <servers />
   </component>
@@ -908,13 +833,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163804000" />
+    <option name="totallyTimeSpent" value="170478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.18763326" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.19402985" />
       <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.26865673" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -925,26 +850,26 @@
       <window_info active="true" x="650" y="220" width="619" height="610" id="ZooKeeper" order="8" visible="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49840087" weight="0.32819384" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7020256" weight="0.32819384" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.80916846" weight="0.32819384" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39977974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.32893288" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.2979744" side_tool="true" visible="true" weight="0.32819384" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.19083156" side_tool="true" weight="0.32819384" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49413645" weight="0.32819384" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Problems" order="13" sideWeight="0.49946696" weight="0.32893288" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" sideWeight="0.49946696" weight="0.32819384" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.836887" weight="0.28854626" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.83528787" visible="true" weight="0.28744492" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.23773988" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="5" visible="true" weight="0.23773988" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -962,6 +887,10 @@
     <option name="port" value="2181" />
     <option name="charset" value="UTF-8" />
     <option name="whitePaths" value="/" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9003/pom.xml">
@@ -1163,13 +1092,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/resources/registry.conf11">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/resources/registry.conf11" />
     <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/domain/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1195,9 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1212,9 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1222,43 +1139,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/resources/11file.conf11">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/config/DataSourceProxyConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/resources/11file.conf11" />
     <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/service/AccountService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1269,8 +1157,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-config-center-3344/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="885">
           <caret line="59" selection-start-line="59" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2201/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1278,49 +1180,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-order-service2001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="33" selection-start-line="33" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="345">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="130" column="25" lean-forward="true" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/config/DataSourceProxyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/seata-order-service2201/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-order-service2201/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        <state relative-caret-position="765">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>

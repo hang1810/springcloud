@@ -1,0 +1,37 @@
+server:
+  port: 3341
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          # 配置存储配置信息的Git仓库
+          uri: https://github.com/hang1810/springcloud.git #git@github.com/hang1810/springcloud.git
+
+          # 开启启动时直接从git获取配置
+          clone-on-start: true
+          search-paths:
+          - cloud2020/config
+  # rabbitmq相干配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+
+# 暴露bus刷新配置的端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'

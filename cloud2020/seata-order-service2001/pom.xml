@@ -12,7 +12,49 @@
     <artifactId>seata-order-service2001</artifactId>
     <dependencies>
 
+        <!--&lt;!&ndash;Seata 包&ndash;&gt;-->
+         <dependency>
+           <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
+            <version>2.2.1.RELEASE</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.seata</groupId>
+                    <artifactId>seata-all</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>io.seata</groupId>
+                    <artifactId>seata-spring-boot-starter</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+         <dependency>
+            <groupId>io.seata</groupId>
+            <artifactId>seata-spring-boot-starter</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+
         <!--Seata 包-->
+        <!--SpringCloudAlibaba的seata分布式事务管理-->
+        <!--<dependency>-->
+            <!--<groupId>com.alibaba.cloud</groupId>-->
+            <!--<artifactId>spring-cloud-alibaba-seata</artifactId>-->
+            <!--<exclusions>-->
+                <!--<exclusion>-->
+                    <!--<groupId>io.seata</groupId>-->
+                    <!--<artifactId>seata-spring-boot-starter</artifactId>-->
+                <!--</exclusion>-->
+            <!--</exclusions>-->
+        <!--</dependency>-->
+        <!--&lt;!&ndash;指定与安装的seata版本一致，重要！&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>io.seata</groupId>-->
+            <!--<artifactId>seata-spring-boot-starter</artifactId>-->
+            <!--<version>1.2.0</version>-->
+        <!--</dependency>-->
+
+        <!--seata-->
         <!--<dependency>-->
             <!--<groupId>com.alibaba.cloud</groupId>-->
             <!--<artifactId>spring-cloud-starter-alibaba-seata</artifactId>-->
@@ -20,27 +62,26 @@
             <!--<exclusions>-->
                 <!--<exclusion>-->
                     <!--<groupId>io.seata</groupId>-->
-                    <!--<artifactId>seata-all</artifactId>-->
-                <!--</exclusion>-->
-                <!--<exclusion>-->
-                    <!--<groupId>io.seata</groupId>-->
                     <!--<artifactId>seata-spring-boot-starter</artifactId>-->
                 <!--</exclusion>-->
             <!--</exclusions>-->
         <!--</dependency>-->
-
-         <!--<dependency>-->
+        <!--<dependency>-->
             <!--<groupId>io.seata</groupId>-->
             <!--<artifactId>seata-spring-boot-starter</artifactId>-->
-            <!--<version>1.1.0</version>-->
+            <!--<version>1.2.0</version>-->
+            <!--<exclusions>-->
+                <!--<exclusion>-->
+                    <!--<groupId>io.seata</groupId>-->
+                    <!--<artifactId>seata-all</artifactId>-->
+                <!--</exclusion>-->
+            <!--</exclusions>-->
         <!--</dependency>-->
-
-        <!--Seata 包-->
-        <dependency>
-            <groupId>io.seata</groupId>
-            <artifactId>seata-spring-boot-starter</artifactId>
-            <version>1.2.0</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>io.seata</groupId>-->
+            <!--<artifactId>seata-all</artifactId>-->
+            <!--<version>1.2.0</version>-->
+        <!--</dependency>-->
 
         <!--Springcloud alibaba Nacos配置-->
         <dependency>
