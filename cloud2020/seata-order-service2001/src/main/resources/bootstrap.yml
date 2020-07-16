@@ -1,0 +1,22 @@
+spring:
+  nacos-host: localhost
+  nacos-port: 8848
+  application:
+    name: seata-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${spring.nacos-host}:${spring.nacos-port}
+      config:
+        server-addr: ${spring.nacos-host}:${spring.nacos-port}
+        file-extension: yaml
+    #Sentinel-Nacos 配置
+    sentinel:
+      datasource:
+        ds:
+          nacos:
+            server-addr: ${spring.nacos-host}:${spring.nacos-port}
+            data-id: ${spring.application.name}-sentinel
+            groupId: FLOW
+            rule-type: flow
+

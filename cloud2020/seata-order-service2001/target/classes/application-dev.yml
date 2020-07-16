@@ -1,0 +1,80 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: seata-server # 应用名称 自定义
+    host: localhost
+  # druid 数据源配置
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/seata_order?serverTimezone=UTC&characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    filters: stat,wall,slf4j
+    maxActive: 20
+    initialSize: 5
+    maxWait: 60000
+    minIdle: 5
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    # 打开PSCache，并且指定每个连接上PSCache的大小
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+
+  main:
+    allow-bean-definition-overriding: true
+  # 连接控制台
+  cloud:
+    sentinel:
+      transport:
+        port: 7001
+        dashboard: ${spring.application.host}:8080
+
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+#mybatis-plus:
+#  global-config:
+#    db-config:
+#      id-type: auto
+#      # 表名前缀
+#      table-prefix: 'xxx'
+#  configuration:
+#    # 驼峰下划线映射
+#    map-underscore-to-camel-case: true
+#    cache-enabled: false
+#  #  config-location: classpath:mybatis/mybatis.cfg.xml
+#  mapper-locations: classpath:mapper/*.xml
+
+
+# 开启Sentinel熔断器
+feign:
+  sentinel:
+    enabled: true
+# 饿加载开启 Feign 预加载, 防止第一次请求超时
+#ribbon:
+#  eager-load:
+#    enabled: true
+#    clients: xxx-server, xxx-server
+logging:
+  level:
+    io:
+      seata: info
+seata:
+  application-id: ${spring.application.name} # Seata 应用名称，默认使用 ${spring.application.name}
+  tx-service-group: default # Seata 事务组, 高版本没找到相关配置, 是否可配置未知 选用默认default
+  # 服务配置项
+  service:
+    # 虚拟组和分组的映射 1.0.0以上好像将vgroup-mapping 改为 vgroupMapping, 此处是否影响未测试
+    vgroupMapping:
+      # 此处Key对应 tx-service-group 的 Value, 此处 value 默认 default
+      default: default
+    # 分组和 Seata 服务的映射 默认端口8091
+    grouplist:
+      default: 127.0.0.1:8091
